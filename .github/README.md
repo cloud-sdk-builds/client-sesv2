@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-sesv2`](https://www.npmjs.com/package/@aws-sdk/client-sesv2/v/3.245.0).
+[`@aws-sdk/client-sesv2`](https://www.npmjs.com/package/@aws-sdk/client-sesv2/v/3.252.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sesv2@3.245.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sesv2@3.252.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-VDzMlFjo04J2G2/5SQYf8zHmcZwz7LPz+INLaaENR6T2hvuKS3fVLemtLUqzBEXg
+sha384-vgev6D4055VW1d2c2gdYu5TJUYZi1V0XWJRDxckT6XXuJGQDH4B2mXGQDmvZkz9u
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-sesv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sesv2@3.245.0/index.min.mjs"
+            "@aws-sdk/client-sesv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sesv2@3.252.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sesv2@3.245.0/index.min.mjs": "sha384-VDzMlFjo04J2G2/5SQYf8zHmcZwz7LPz+INLaaENR6T2hvuKS3fVLemtLUqzBEXg"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sesv2@3.252.0/index.min.mjs": "sha384-vgev6D4055VW1d2c2gdYu5TJUYZi1V0XWJRDxckT6XXuJGQDH4B2mXGQDmvZkz9u"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-sesv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sesv2@3.245.0/index.min.mjs"
+                        "@aws-sdk/client-sesv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sesv2@3.252.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sesv2@3.245.0/index.min.mjs": "sha384-VDzMlFjo04J2G2/5SQYf8zHmcZwz7LPz+INLaaENR6T2hvuKS3fVLemtLUqzBEXg"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sesv2@3.252.0/index.min.mjs": "sha384-vgev6D4055VW1d2c2gdYu5TJUYZi1V0XWJRDxckT6XXuJGQDH4B2mXGQDmvZkz9u"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.245.0`)
+* Always pin to a specific version (`@3.252.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-sesv2/blob/refs/tags/3.245.0/LICENSE
+https://github.com/cloud-sdk-builds/client-sesv2/blob/refs/tags/3.252.0/LICENSE
 ```
 
 ---
